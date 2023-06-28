@@ -1,3 +1,92 @@
-h{
-    color: aqua;
+body{
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Vollkorn', serif;
+    margin: 0px;
 }
+p{
+    font-size: 25px;
+    color: dimgrey;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.half-width{
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 5%;
+    float:left;
+    margin-top: 150px;
+
+}
+.first-part{
+    background-image: url(personal-website/header-bg.png);
+    background-repeat: no-repeat;
+}
+#name{
+      color: darkmagenta;
+}
+section{
+    height: 500px;
+    padding-bottom: 550px;
+}
+.hire-me{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(193, 90, 164) ,rgba(179, 14, 194, 0.701));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: antiquewhite;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+.half-width img{
+    width: 70%;   
+}
+.second-part{
+    background-image: url(personal-website/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.third-part{
+    background-image: url(personal-website/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+#text{
+    text-align: center;
+    margin-top: 5%;
+}
+#a{
+    width: 21%;
+    margin-left: 10%;
+    box-shadow: 10px 10px 40px;
+    margin-top: 5%;
+}
+.forth-part{
+    background-image: url(personal-website/footer-bg.png);
+    background-repeat: no-repeat;
+}
+#ab{
+    text-align: center;
+}
+#cd{
+    padding-left: 10%;
+    margin-top: 15%;
+    width: 460px;
+    border-radius: 15px;
+    color: bisque;
+    border: 5px solid rgba(196, 14, 202, 0.701);
+    margin-left: 450px;
+    margin-right: 480px;
+    background-image: linear-gradient(45deg,rgb(250, 5, 128) ,rgba(196, 14, 202, 0.701));
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer{
+    text-align: center;
+}
+
+
